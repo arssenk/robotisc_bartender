@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=final_bartender.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\final_bartender -TC:\CooCox\CoIDE\configuration\ProgramData\final_bartender/arm-gcc-link.ld -g">
+      <target file="final_bartender.elf" lastModified="160fab949be">
+         <source file="..\obj\main.o" lastModified="160fab94572"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="160fab94596"/>
+         <source file="..\obj\syscalls.o" lastModified="160fab94611"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="160fab94698"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F072RB -I..\..\..\workspace -I..\..\..\workspace\final_bartender\cmsis_boot -I..\..\..\workspace\final_bartender\cmsis_core -I..\..\..\workspace\final_bartender">
+      <target file="system_stm32f0xx.o" lastModified="160fab94698">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="160f8f4f435"/>
+      </target>
+      <target file="syscalls.o" lastModified="160fab94611">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="160f8990697"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="160fab94596">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="160f898fb61"/>
+      </target>
+      <target file="main.o" lastModified="160fab94572">
+         <source file="..\..\..\main.c" lastModified="160fab940f0"/>
+      </target>
+   </processor>
+</history>
